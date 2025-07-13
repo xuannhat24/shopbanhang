@@ -21,6 +21,7 @@
 
 .header__navbar-item {
     margin: 0 8px;
+    position: relative;
     min-height: 20px;
 }
 .header__navbar-item, 
@@ -67,5 +68,30 @@ color:  rgba(255, 255, 255, 0.7);
 .header__navbar-icon {
     font-size: 1.8rem;
     margin-top: 0 4px;
+}
+
+/* QR Code Section */
+.header__qr {
+    width: 186px;
+    background-color: var(--white-color);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 8px;
+    border-radius: 2px;
+
+}
+
+.header__qr-img {
+  width: 100%;
+}
+
+.header__qr-apps {
+display: flex;
+
+}
+
+.header__qr-download-img {
+  height: 16px;
 }
 
